@@ -1,0 +1,15 @@
+[book]
+authors = ["Gerred Dillon"]
+language = "zh-CN"
+src = "src"
+title = "智能体系统系列"
+
+[output.html]
+mathjax-support = true
+git-repository-url = "https://github.com/prim/building-an-agentic-system"
+additional-js = ["mermaid.min.js", "mermaid-init.js"]
+additional-css = ["custom.css"]
+
+[preprocessor.mermaid]
+command = "mdbook-mermaid"
+optional = true
